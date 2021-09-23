@@ -119,6 +119,7 @@ header #start {
     width: 550px;
     float: left;
     font-size: 20px;
+    margin-right: 8pxpx;
 }
 
 .jumbo_content .col_left p {
