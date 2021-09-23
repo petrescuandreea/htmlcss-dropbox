@@ -1,0 +1,95 @@
+/* general settings */
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Open Sans', Arial, Helvetica, sans-serif;
+}
+
+.clearfix::after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+a {
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+.btn {
+    color: white;
+    background-color: blue;
+    text-decoration: none;
+}
+
+/* header */
+header {
+    width: 100%;
+    line-height: 80px;
+    background-color: rgb(169, 169, 226);
+    padding: 5px 10px;
+    position: fixed;
+}
+
+.logo {
+    float: left;
+    margin-right: 20px;
+}
+
+.logo img {
+    vertical-align: middle;
+}
+
+
+/* nav bar */
+.nav_bar {
+   width: calc(100% - 235px : 2);
+}
+
+#nav_left {
+    float: left;
+}
+
+#nav_right {
+    float: right;
+    margin-right: 5px;
+}
+
+.nav_bar ul {
+    list-style-type: none;
+}
+
+.nav_bar li {
+    display: inline-block;
+}
+
+.nav_bar li a {
+    margin: 10px;
+    padding: 10px;
+    color: black;
+    font-size: 15px;
+}
+
+.nav_bar a:hover {
+    color: blue;
+}
+
+
+/* start button */
+header #start {
+    float: right;
+}
+
+#start .btn {
+    padding: 5px 10px;
+    font-size: 15px;
+}
