@@ -1,5 +1,5 @@
 /* general settings */
-@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap');
+
 
 *{
     margin: 0;
@@ -8,7 +8,7 @@
 }
 
 body {
-    font-family: 'Open Sans', Arial, Helvetica, sans-serif;
+    font-family: 'Open Sans', sans-serif;
 }
 
 .clearfix::after {
@@ -25,9 +25,15 @@ a:hover {
     text-decoration: underline;
 }
 
+
 .btn {
     color: white;
-    background-color: blue;
+    text-decoration: none;
+    background-color: rgb(19, 110, 214);
+    padding: 5px 20px;
+}
+
+.btn:hover {
     text-decoration: none;
 }
 
@@ -35,9 +41,9 @@ a:hover {
 header {
     width: 100%;
     line-height: 80px;
-    background-color: rgb(169, 169, 226);
+    background-color: white;
     padding: 5px 10px;
-    position: fixed;
+    /* position: fixed; */
 }
 
 .logo {
@@ -51,10 +57,6 @@ header {
 
 
 /* nav bar */
-.nav_bar {
-   width: calc(100% - 235px : 2);
-}
-
 #nav_left {
     float: left;
 }
@@ -90,6 +92,45 @@ header #start {
 }
 
 #start .btn {
-    padding: 5px 10px;
+    /* padding: 5px 10px; */
     font-size: 15px;
+    background-color: blue;
+}
+
+
+/* jumbotron */
+#jumbotron {
+    background-color:rgb(149, 186, 223);
+}
+
+/* jumbotron title */
+.jumbo_content {
+    padding: 80px;
+}
+
+#jumbotron h1 {
+    color: black;
+    font-size: 80px;
+    font-weight: 700;
+    margin-bottom: 20px;
+}
+
+#jumbotron .jumbo_content .col_left {
+    width: 550px;
+    float: left;
+    font-size: 20px;
+}
+
+.jumbo_content .col_left p {
+    margin-bottom: 50px;
+}
+
+.jumbo_content .col_left #txt {
+    font-size: 15px;
+    margin-top: 20px;
+}
+
+.jumbo_content .col_left .arrow_down {
+    font-size: 40px;
+    margin-top: 50px;
 }
