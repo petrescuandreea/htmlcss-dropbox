@@ -112,7 +112,7 @@ header #start {
     color: black;
     font-size: 80px;
     font-weight: 700;
-    margin-bottom: 20px;
+    margin-bottom: 50px;
 }
 
 #jumbotron .jumbo_content .col_left {
@@ -133,4 +133,12 @@ header #start {
 .jumbo_content .col_left .arrow_down {
     font-size: 40px;
     margin-top: 50px;
+}
+
+.jumbo_content .col_right  {
+    float: left;
+}
+
+.jumbo_content .col_right img {
+    max-width: 800px;
 }
