@@ -1,6 +1,5 @@
 /* general settings */
 
-
 *{
     margin: 0;
     padding: 0;
@@ -29,7 +28,7 @@ a:hover {
 .btn {
     color: white;
     text-decoration: none;
-    background-color: rgb(19, 110, 214);
+    background-color: rgba(0,97,255,255);
     text-align: center;
     padding: 5px 20px;
 }
@@ -98,25 +97,30 @@ header #start {
     float: right;
 }
 
-#start .btn {
+header #nav_right li:last-child a{
     font-size: 15px;
-    background-color: blue;
+    background-color: rgba(0,97,255,255);
 }
 
+header #nav_right li:last-child a:hover {
+    color: white;
+}
 
 /* jumbotron */
 #jumbotron {
-    background-color:rgb(149, 186, 223);
+    background-color:rgba(180,208,231,255);
 }
 
 /* jumbotron title */
 .jumbo_content {
-    padding: 80px;
+    width: 80%;
+    margin: 20px auto;
+    padding: 70px 0;
 }
 
 #jumbotron h1 {
     color: black;
-    font-size: 80px;
+    font-size: 70px;
     font-weight: 700;
     margin-bottom: 50px;
 }
@@ -125,7 +129,7 @@ header #start {
     width: 550px;
     float: left;
     font-size: 20px;
-    margin-right: 8pxpx;
+    margin-right: 8px;
 }
 
 .jumbo_content .col_left p {
@@ -147,7 +151,7 @@ header #start {
 }
 
 .jumbo_content .col_right img {
-    max-width: 800px;
+    max-width: 655px;
 }
 
 /* main part */
@@ -190,7 +194,7 @@ main section .col_block {
 .audience {
     text-align: center;
     height: 50px;
-    border-bottom: 1px solid #c1c1c1;
+    border-bottom: 1px solid #c1c1c1;;
     line-height: 50px;
     vertical-align: middle;
 }
@@ -209,14 +213,14 @@ main section .plan_item .price {
 }
 
 main section .plan_item .grey {
-    color: rgb(160 157 157);
+    color: rgba(101,117,130,255);
     font-weight:bold;
     margin-top: 10px;
 }
 
 main section .plan_item .no_bullet {
     list-style-type: none;
-    margin: 60px 0;
+    margin-bottom: 60px;
 }
 
 main section .plan_item .no_bullet li{
@@ -228,15 +232,16 @@ main section .plan_item .cta_buy_now {
 }
 
 main section .plan_item .cta_buy_now>a {
-    color: rgb(19, 110, 214);
+    color: rgba(26,112,255,255);
     text-decoration: underline;
 }
 
 main section .plan_item .list ul li::before {
     content: "\1F5F8";
-    color: rgb(19, 110, 214);
+    color: rgba(8,102,255,255);
     font-weight: bold;
     margin-right: 5px;
+    
 }
 
 .large {
@@ -252,3 +257,24 @@ main section .plan_item .list ul li::before {
 .btn.large a:hover {
    text-decoration: none;
 }
+
+/* section down */
+main .main_section .nocols {
+    border: 1px solid #c1c1c1;
+    margin-top: 50px;
+}
+
+main .main_section .nocols .left_title {
+    float: left;
+}
+
+main .main_section .nocols h4 {
+    margin-bottom: 30px;
+}
+
+main .main_section .nocols .right_btn {
+    float: right;
+    width: 30%;
+}
+
+
