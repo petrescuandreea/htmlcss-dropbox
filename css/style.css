@@ -30,6 +30,7 @@ a:hover {
     color: white;
     text-decoration: none;
     background-color: rgb(19, 110, 214);
+    text-align: center;
     padding: 5px 20px;
 }
 
@@ -98,7 +99,6 @@ header #start {
 }
 
 #start .btn {
-    /* padding: 5px 10px; */
     font-size: 15px;
     background-color: blue;
 }
@@ -150,7 +150,6 @@ header #start {
     max-width: 800px;
 }
 
-
 /* main part */
 .main_section {
     margin: 60px 0;
@@ -174,20 +173,82 @@ header #start {
 
 /* cols */
 main section .column {
-    width: calc(100% / 3);
+    width: calc(90% / 3);
     float: left;
-    /* debug rules */
-    background-color: coral;
-    height: 200px;
-    border: 1px solid black;
+    min-height: 1050px;
+    border: 1px solid #c1c1c1;
+}
+
+main section .column.center{
+    margin: 0 5%;
+}
+
+main section .col_block {
+    margin-top: 30px;
 }
 
 .audience {
     text-align: center;
     height: 50px;
-    border-bottom: 1px solid black;
+    border-bottom: 1px solid #c1c1c1;
     line-height: 50px;
     vertical-align: middle;
 }
 
+main section .plan_item {
+    padding: 25px 20px;
+}
 
+main section .plan_item h3 {
+    font-size: 30px;
+    margin-bottom: 10px;
+}
+
+main section .plan_item .price {
+    font-weight: bold;
+}
+
+main section .plan_item .grey {
+    color: rgb(160 157 157);
+    font-weight:bold;
+    margin-top: 10px;
+}
+
+main section .plan_item .no_bullet {
+    list-style-type: none;
+    margin: 60px 0;
+}
+
+main section .plan_item .no_bullet li{
+    margin: 22px 0;
+}
+
+main section .plan_item .cta_buy_now {
+    margin: 40px 0;
+}
+
+main section .plan_item .cta_buy_now>a {
+    color: rgb(19, 110, 214);
+    text-decoration: underline;
+}
+
+main section .plan_item .list ul li::before {
+    content: "\1F5F8";
+    color: rgb(19, 110, 214);
+    font-weight: bold;
+    margin-right: 5px;
+}
+
+.large {
+    width: 100%;
+    text-align: center;
+    padding: 5px 0;
+}
+
+.large a {
+    color: white;
+}
+
+.btn.large a:hover {
+   text-decoration: none;
+}
