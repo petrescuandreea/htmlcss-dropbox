@@ -252,7 +252,6 @@ main section .column .plan_item .list ul li::before {
 
 .large {
     width: 100%;
-    text-align: center;
     padding: 5px 0;
 }
 
@@ -315,6 +314,9 @@ main .main_section .white_black {
 
 
 /* section 3cols x 2 */
+main .main_section.no_margin_down {
+    margin-bottom: 0px;
+}
 main .main_section .card_row {
     margin: 35px 0;
 }
@@ -439,3 +441,33 @@ main .main_section .container_down .square.cc {
     background-color:rgba(255,216,48,255);
 } 
 
+main .main_section .container_down .pastel_blue {
+    background-color: #b4d0e7;
+}
+
+main .main_section .container_down .pastel_blue .cta {
+    padding: 80px 0;
+}
+
+main .main_section .container_down .pastel_blue .col_text {
+    width: 65%;
+    float: left;
+}
+
+main .main_section .container_down .pastel_blue .col_text h2 {
+    /* padding-right: 150px; */
+    color: #61082b;
+}
+
+main .main_section .container_down .pastel_blue .col_button {
+    width: 35%;
+    float: right;
+    padding: 0 25px;
+}
+
+main .main_section .container_down .pastel_blue .col_button .right_btn {
+    background-color: white;
+}
+main .main_section .container_down .pastel_blue .col_button .white {
+    color: black;
+}
