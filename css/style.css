@@ -317,16 +317,25 @@ main .main_section .card_row {
     margin: 35px 0;
 }
 
-main .main_section .card {
+main .main_section .card_row .card {
     width: calc(90% / 3);
     float: left;
 }
 
-main .main_section .card.second {
+main .main_section .card_row .card.second {
     margin: 0 5%;
 }
 
-main .main_section .card .card_img img {
+main .main_section .card_row .card .card_img img {
     width: 100%;
     object-fit: cover;
+}
+
+main .main_section .card_row .card .card_text {
+    margin: 20px 0;
+}
+
+main .main_section .card_row .card .text_underlined {
+    text-decoration: underline;
+    text-decoration-color: rgba(139,139,139,255);
 }
