@@ -42,6 +42,10 @@ a:hover {
     margin: 0 auto;
 }
 
+h3 {
+    font-size: 30px;
+    margin-bottom: 10px;
+}
 
 /* header */
 header {
@@ -146,7 +150,7 @@ header #nav_right li:last-child a:hover {
     margin-top: 50px;
 }
 
-.jumbo_content .col_right  {
+.jumbo_content .col_right {
     float: left;
 }
 
@@ -203,45 +207,43 @@ main section .plan_item {
     padding: 25px 20px;
 }
 
-main section .plan_item h3 {
-    font-size: 30px;
-    margin-bottom: 10px;
-}
-
 main section .plan_item .price {
     font-weight: bold;
 }
 
 main section .plan_item .grey {
     color: rgba(101,117,130,255);
-    font-weight:bold;
+    font-weight: bold;
     margin-top: 10px;
 }
 
-main section .plan_item .no_bullet {
+main section .column .plan_item .list .list_title {
+    font-weight: bold;
+}
+
+main section .column .plan_item .no_bullet {
     list-style-type: none;
     margin-bottom: 60px;
 }
 
-main section .plan_item .no_bullet li{
+main section .column .plan_item .no_bullet li{
     margin: 22px 0;
 }
 
-main section .plan_item .cta_buy_now {
+main section .column .plan_item .cta_buy_now {
     margin: 40px 0;
 }
 
-main section .plan_item .cta_buy_now>a {
+main section .column .plan_item .cta_buy_now>a {
     color: rgba(26,112,255,255);
     text-decoration: underline;
 }
 
-main section .plan_item .list ul li::before {
+main section .column .plan_item .list ul li::before {
     content: "\1F5F8";
     color: rgba(8,102,255,255);
     font-weight: bold;
     margin-right: 5px;
-    
 }
 
 .large {
@@ -275,6 +277,34 @@ main .main_section .nocols h4 {
 main .main_section .nocols .right_btn {
     float: right;
     width: 30%;
+}
+
+
+/* section 2cols */
+main .main_section .col_left {
+    float: left;
+    width: 60%;
+}
+
+main .main_section .col_left img {
+    max-width: 650px;
+}
+
+main .main_section .col_right {
+    float: left;
+    width: 40%;
+    padding: 30px;
+}
+
+main .main_section .col_right p {
+    padding: 30px 0;
+}
+
+
+main .main_section .white_black {
+    color: black;
+    padding: 5px 20px;
+    border: 1px solid black;
 }
 
 
