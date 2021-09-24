@@ -91,6 +91,10 @@ header {
     font-size: 15px;
 }
 
+.nav_bar li:last-child a {
+    color: white;
+}
+
 .nav_bar a:hover {
     color: blue;
 }
@@ -308,3 +312,21 @@ main .main_section .white_black {
 }
 
 
+/* section 3cols x 2 */
+main .main_section .card_row {
+    margin: 35px 0;
+}
+
+main .main_section .card {
+    width: calc(90% / 3);
+    float: left;
+}
+
+main .main_section .card.second {
+    margin: 0 5%;
+}
+
+main .main_section .card .card_img img {
+    width: 100%;
+    object-fit: cover;
+}
