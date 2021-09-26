@@ -473,3 +473,30 @@ main .main_section .container_down .pastel_blue .col_button .right_btn {
 main .main_section .container_down .pastel_blue .col_button .white {
     color: black;
 }
+
+
+/* section6  */
+main .main_section .container_center h3 {
+    padding-bottom: 40px ;
+}
+
+main .main_section .container_center .clearfix.row_container {
+    border-top: 2px solid #eeeeef;
+    line-height: 80px;
+    vertical-align: middle;
+    font-weight: bold;
+}
+
+main .main_section .container_center .clearfix.row_container:last-child {
+    border-bottom: 2px solid #eeeeef;
+}
+
+main .main_section .container_center .clearfix.row_container .row_text {
+    width: 95%;
+    float: left;
+}
+
+main .main_section .container_center .clearfix.row_container .row_icon {
+    width: 5%;
+    float: right;
+}
