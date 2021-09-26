@@ -52,8 +52,11 @@ header {
     width: 100%;
     line-height: 80px;
     background-color: white;
-    padding: 5px 10px;
-    /* position: fixed; */
+    padding: 0 20px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 900;
 }
 
 .logo {
@@ -73,7 +76,6 @@ header {
 
 #nav_right {
     float: right;
-    margin-right: 5px;
 }
 
 .nav_bar ul {
@@ -86,12 +88,11 @@ header {
 
 .nav_bar li a {
     margin: 10px;
-    padding: 10px;
     color: black;
     font-size: 15px;
 }
 
-.nav_bar li:last-child a {
+#nav_right li:last-child a {
     color: white;
 }
 
@@ -117,6 +118,7 @@ header #nav_right li:last-child a:hover {
 /* jumbotron */
 #jumbotron {
     background-color:rgba(180,208,231,255);
+    margin-top: 80px;
 }
 
 /* jumbotron title */
