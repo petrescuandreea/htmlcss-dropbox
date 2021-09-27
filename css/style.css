@@ -497,11 +497,8 @@ main .main_section .container_down .pastel_blue .col_button .white {
 
 
 /* section6  */
-main .main_section .container_center h3 {
-    padding-bottom: 40px ;
-}
-
 main .main_section .container_center .clearfix.row_container {
+    margin-top: 40px;
     border-top: 2px solid #eeeeef;
     line-height: 80px;
     vertical-align: middle;
