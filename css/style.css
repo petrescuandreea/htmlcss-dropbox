@@ -427,6 +427,14 @@ main .main_section .container_down .center .description {
 
 
 /* right side  */
+main .main_section .container_down img {
+    filter: invert(1);
+}
+
+main .main_section .container_down .center img {
+    filter: none;
+}
+
 main .main_section .container_down .square.wbr {
     background-color: rgba(213,0,31,255);
 } 
