@@ -400,6 +400,11 @@ main .main_section .container_down .square.uf {
     background-color: rgba(0,147,206,255);
 }
 
+main .main_section .container_down .square.uf img {
+    max-width: 120px;
+    max-height: 37px;
+}
+
 main .main_section .container_down .square.topps {
     background-color:rgba(255,28,28,255);
 } 
