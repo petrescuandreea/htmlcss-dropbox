@@ -223,6 +223,12 @@ main section .plan_item .grey {
     margin-top: 10px;
 }
 
+.line {
+    width: 55px;
+    border-top: 1px solid #cbc1c1;
+    margin-bottom: 45px;
+}
+
 main section .column .plan_item .list .list_title {
     font-weight: bold;
 }
