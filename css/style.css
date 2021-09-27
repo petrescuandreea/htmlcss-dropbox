@@ -189,7 +189,7 @@ header #nav_right li:last-child a:hover {
 main section .column {
     width: calc(90% / 3);
     float: left;
-    min-height: 1050px;
+    min-height: 1100px;
     border: 1px solid #c1c1c1;
 }
 
@@ -228,13 +228,17 @@ main section .column .plan_item .list .list_title {
 }
 
 main section .column .plan_item .no_bullet {
-    list-style-type: none;
-    padding-left: 20px;
-    margin-bottom: 60px;
+    margin: 60px 0;
 }
 
 main section .column .plan_item .no_bullet li{
-    margin: 22px 0;
+    list-style-type: none;
+    padding-left: 20px;
+    margin-bottom: 22px;
+}
+
+.plan_item .no_bullet li .far , .plan_item .no_bullet li .fas {
+    margin-left: -19px;
 }
 
 main section .column .plan_item .cta_buy_now {
@@ -246,12 +250,9 @@ main section .column .plan_item .cta_buy_now>a {
     text-decoration: underline;
 }
 
-main section .column .plan_item .list ul li::before {
-    content: "\1F5F8";
+.column .plan_item .no_bullet li .fa-check {
     color: rgba(8,102,255,255);
-    font-weight: bold;
-    margin-right: 5px;
-}
+} 
 
 .large {
     width: 100%;
