@@ -505,8 +505,6 @@ main .main_section .container_center .clearfix.row_container .row_icon {
 /* footer  */
 footer {
     background-color: rgba(0,0,0,255);
-    /* debug rules  */
-    height: 500px;
 }
 
 footer .container_content .menu_col {
@@ -527,4 +525,17 @@ footer .container_content .menu_col ul li {
 
 footer .container_content .menu_col a {
     color: white;
+}
+
+/* footer down  */
+#foot_down {
+    width: 120px;
+    border-top: 1px solid white;
+    padding-top: 45px ;
+    margin-top: 100px;
+}
+
+footer #foot_down a {
+    color:#585858;
+    font-weight: bold;
 }
