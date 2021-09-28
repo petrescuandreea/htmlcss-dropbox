@@ -524,24 +524,55 @@ section .column .plan_item .no_bullet li{
 
 
 /* questions section  */
-.main_section .container_center .clearfix.row_container {
-    border-top: 2px solid #eeeeef;
-    line-height: 80px;
-    vertical-align: middle;
-    font-weight: bold;
+#faq_section {
+    margin-bottom: 150px;
+}
+#faq_section h3 {
+    font-size: 30px;
+    padding-bottom: 50px;
+    border-bottom: 1px solid rgba(226,226,228,255);
 }
 
-.main_section .container_center .clearfix.row_container:last-child {
-    border-bottom: 2px solid #eeeeef;
-}
-.main_section .container_center .clearfix.row_container .row_text {
-    width: 95%;
-    float: left;
+#faq_section .faq_item{
+    padding: 35px 100px 35px 0;
+    position: relative;
+    cursor: pointer;
+    border-bottom: 1px solid rgba(226,226,228,255);
 }
 
-.main_section .container_center .clearfix.row_container .row_icon {
-    width: 5%;
-    float: right;
+#faq_section h5 {
+    font-size: 20px;
+}
+
+#faq_section .fas {
+    position: absolute;
+    top: 40px;
+    right: 45px;
+}
+
+#faq_section .fas.hidden {
+    display: none;
+}
+
+/* question answer   */
+#faq_section .answer_hidden {
+    display: none;
+}
+
+#faq_section .faq_item:hover .answer_hidden {
+    display: block;
+}
+
+#faq_section .faq_item:hover .fas.hidden {
+    display: block;
+}
+
+#faq_section .faq_item:hover .fas.show {
+    display: none;
+}
+
+#faq_section .answer_hidden a {
+    color: blue;
 }
 
 
