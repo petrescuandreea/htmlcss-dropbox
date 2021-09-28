@@ -102,9 +102,45 @@ nav ul {
 }
 
 
-header #nav_right li:last-child a:hover {
-    color: white;
+/* drop down menù  */
+#nav_right ul li {
+    position: relative;
 }
+
+#nav_right li ul {
+    position: absolute;
+    top: 55px;
+    left: 0;
+    display: none;
+}
+
+#nav_right li:hover ul {
+    display: block;
+}
+
+#nav_right .drop_down_hover:hover a {
+    text-decoration: none;
+    color: black;
+}
+
+#nav_right li ul li {
+    display: block;
+    line-height: 35px;
+    background-color: white;
+    width: 180px;
+}
+
+#nav_right li ul li a {
+    color: rgb(66, 64, 64);
+    text-decoration: none;
+    padding-left: 15px;
+}
+
+#nav_right .drop_down_content a:hover {
+    text-decoration: underline;
+}
+
+
 
 /* jumbotron */
 #jumbotron {
