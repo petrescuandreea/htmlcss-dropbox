@@ -110,13 +110,14 @@ nav ul {
 
 #nav_right li ul {
     position: absolute;
-    top: 55px;
+    top: 80px;
     left: 0;
     display: none;
 }
 
 #nav_right li:hover ul {
     display: block;
+    background-color: white;
 }
 
 #nav_right .drop_down_hover:hover a {
@@ -128,17 +129,20 @@ nav ul {
     display: block;
     line-height: 35px;
     background-color: white;
-    width: 180px;
+    width: 200px;
 }
 
 #nav_right li ul li a {
     color: rgb(66, 64, 64);
     text-decoration: none;
-    padding-left: 15px;
+    display: block;
+    width: 100%;
+    margin: 0;
+    padding: 5px 0 5px 30px;
 }
 
 #nav_right .drop_down_content a:hover {
-    text-decoration: underline;
+    background-color: lightgray;
 }
 
 
