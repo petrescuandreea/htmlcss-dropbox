@@ -164,16 +164,11 @@ nav ul {
     margin-bottom: 50px;
 }
 
+/* left column  */
 #jumbotron .jumbo_container .col_left {
     width: 30%;
     float: left;
     font-size: 20px;
-}
-
-.jumbo_container .col_right {
-    width: 65%;
-    float: left;
-    margin-left: 5%;
 }
 
 .jumbo_container .col_left p {
@@ -185,14 +180,26 @@ nav ul {
     margin-top: 20px;
 }
 
-.jumbo_container .col_left .arrow_down {
+.jumbo_container .col_left .go_down {
     font-size: 40px;
     margin-top: 25px;
+    cursor: pointer;
 }
 
+.jumbo_container .col_left .go_down a {
+    color: black;
+}
+
+/* right column  */
+.jumbo_container .col_right {
+    width: 65%;
+    float: left;
+    margin-left: 5%;
+}
 .jumbo_container .col_right img {
     max-width: 800px;
 }
+
 
 /* main part */
 .main_section {
